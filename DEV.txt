@@ -1,0 +1,9 @@
+echo Warning: This is in developer mode. We recommend you to not use it.
+echo Enter anyways   --   E
+echo]
+SET selection=
+SET /P selection=^> 
+
+If /I '%selection%'=='E' goto LOGO
+
+exit
